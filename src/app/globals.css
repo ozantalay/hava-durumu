@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(https://images.unsplash.com/photo-1720625578363-d578000d9245?q=80&w=1892&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-image: url(../image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /* Resmi kapsayıcıyı tamamen kaplayacak şekilde ayarlar */
+    background-position: center;
+
+}
+.App {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+    background-color: rgba(29, 64, 141, 0.5);
+}
+.weather-create {
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 100px;
+
+}
+.weather-button {
+    height: 35px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: black;
+    margin-left: 10px;
+}
+.container-wc{
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    margin-left:10px;
+    height:30px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.input-app{
+    text-align: center;
+    margin-top: 30px;
+}
+input{
+   height: 25px;
+   border-radius: 5px;
+}
+.weather-list{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 10px;
+}
+.weather-list img{
+    height: 100px;
+}
+.city{
+    font-size: 25px;
+    
+}
+.sıcaklık{
+    margin-top:40px;
+    font-size: 25px;
+    position: relative; /* Sayı ile metinlerin konumlandırılmasını sağlar */
+    display: inline-block;
+    
+}
+.sıcaklık b{
+    font-size: 50px;
+ 
+}
+.time{
+    margin-top: 10px;
+    font-size: 15px;
+    margin: 5px;
+}
+.date{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+.soluk{
+   opacity:0.9;
+   margin-top: 15px;
+   color: white;
+}
+.degree-symbol {
+    position:absolute;
+    top: 0;
+    right: -7;
+    bottom: 5;
+    font-size: 0.6em;
+    color: #000; 
+    margin-right: 5px; 
+  }
